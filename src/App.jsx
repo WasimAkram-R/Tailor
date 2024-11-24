@@ -1,33 +1,3 @@
-// import './App.css'
-// import ResponsiveNavbar from './Components/Navbar/Navbar'
-
-// import Home from './Components/Home/Home'
-
-
-// import {BrowserRouter,Routes,Route} from 'react-router-dom'
-
-// function App() {
-
-
-//   return (
-//     <>
-//       <BrowserRouter>
-
-// <ResponsiveNavbar/>
-
-
-// <Routes>
-//    <Route  path="/" element={<Home/>}/>
-// </Routes>
-
-
-// </BrowserRouter>
-//     </>
-//   )
-// }
-
-// export default App
-
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -41,10 +11,11 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import AboutUs from './Components/AboutUs/AboutUs';
 import ContactUs from './Components/ContactUs/ContactUs';
 import FAQ from './Components/FAQ/FAQ';
-import Partner from './Components/Partner/Partner';
+
 import { FiArrowUpCircle } from "react-icons/fi";
 import Terms_Conditions from './Components/Terms_Conditions/Terms_Conditions';
 import Login from './Components/Login/Login';
+import Partners from './Components/Partner/Partners';
 
 
 function App() {
@@ -57,7 +28,7 @@ function App() {
         <Route path="/search/:location" element={<SearchResults/>} /> 
         <Route path="/tailor/:name" element={<One/>} />
 
-        <Route path="/partner" element={<Partner/>} />
+        <Route path="/partner"  element={<Partners/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/faq" element={<FAQ/>} />

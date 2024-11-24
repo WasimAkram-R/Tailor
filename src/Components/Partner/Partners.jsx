@@ -1,9 +1,9 @@
 import React from 'react'
 import './Partner.css'
-import partnerimg1 from './partner1.png'
-import partnerimg2 from './partner2.png'
+import partnerimg1 from './Partner1.png'
+import partnerimg2 from './Partner2.png'
 // styl={{backgroundColor:"#f8f0fb"}}
-const Partner = () => {
+const Partners = () => {
   return (
     <>
      
@@ -165,4 +165,4 @@ const Partner = () => {
   )
 }
 
-export default Partner
+export default Partners
