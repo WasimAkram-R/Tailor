@@ -1,0 +1,42 @@
+/* .footerform .footerinput::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+    color: black;
+}
+.footerform .footerinput:focus{
+    outline: none;
+} */
+
+
+.uppercontainer{
+    position: relative;
+}
+.upper{
+    height: 40px;
+    width: 40px;
+    color:orangered;
+    background-color:white;
+    border-radius: 50%;
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    bottom: 0;
+}
+.upper:hover{
+    color:white;
+    background-color:orangered;
+    transition: 0.4s;
+}
+
+.footerform button:hover{
+    /* color:orangered !important;
+    background-color:white !important; */
+    filter: brightness(80%);
+    transition: .5s;   
+}
+html {
+    scroll-behavior: smooth;
+  
+}
+
+
