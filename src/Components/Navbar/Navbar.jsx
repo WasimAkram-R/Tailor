@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { IoLogInOutline } from "react-icons/io5";
 import {Link} from 'react-router-dom'
 
-import nav from './Original.png'
+import finallogo from './Finallogo.png'
 import './Navbar.css'
 
 
@@ -22,8 +22,9 @@ const ResponsiveNavbar = () => {
       <Container>
         {/* Logo/Brand on the left */}
         <Navbar.Brand className='text-white'>
-          <img src={nav} alt="" className='img-fluid' style={{width:"120px",height:"70px"}} />
-          {/* TailorsHub */}
+          {/* <img src={nav} alt="" className='img-fluid' style={{width:"120px",height:"60px"}} />
+          <span  style={{color:"orangered",fontSize:"30px",fontFamily:"cursive"}}>TailorsHub</span> */}
+          <img src={finallogo} style={{width:"150px",height:"50px"}} className='img-fluid' alt="" />
         </Navbar.Brand>
 
         {/* Center Navigation Links */}

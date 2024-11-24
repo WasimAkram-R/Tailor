@@ -3,6 +3,18 @@ import './Partner.css'
 import partnerimg1 from './Partner1.png'
 import partnerimg2 from './Partner2.png'
 // styl={{backgroundColor:"#f8f0fb"}}
+
+import { TbBusinessplan } from "react-icons/tb";
+import { MdOutlinePhone } from "react-icons/md";
+import { MdOutlineVisibility } from "react-icons/md";
+import { SiCodesignal } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
+import { LiaUserFriendsSolid } from "react-icons/lia";
+import { MdSupportAgent } from "react-icons/md";
+import { IoPeopleOutline } from "react-icons/io5";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { CgProfile } from "react-icons/cg";
+import { RiShakeHandsLine } from "react-icons/ri";
 const Partners = () => {
   return (
     <>
@@ -63,11 +75,11 @@ const Partners = () => {
       <h2 className="pb-2 display-6"style={{color:"orangered"}}>Benefits For Tailors:</h2>
       <div className="col">
         <ul className="list-unstyled">
-          <li><span className="fw-bold">Showcase Your Design:</span> Display your best designs and creations to a growing audience.</li>
-          <li className="my-2"><span className="fw-bold">Gain Visibility:</span> Reach customers in your locality and beyond.</li>
-          <li><span className="fw-bold">Easy Communication:</span> Receive inquiries and collaborate with clients effortlessly.</li>
-          <li className="my-2"><span className="fw-bold">Business Growth:</span> Increase your customer base and grow your revenue.</li>
-          <li><span className="fw-bold">Custom Websites:</span> Designed specifically to highlight your skills and services.</li>
+          <li><span className="fw-medium"><SiCodesignal style={{color:"orangered"}}/> Showcase Your Design:</span> <span className='text-muted'>Display your best designs and creations to a growing audience.</span></li>
+          <li className="my-2"><span className="fw-medium"><MdOutlineVisibility style={{color:"orangered"}}/> Gain Visibility:</span><span className='text-muted'> Reach customers in your locality and beyond.</span> </li>
+          <li><span className="fw-medium"><MdOutlinePhone style={{color:"orangered"}}/> Easy Communication:</span> <span className='text-muted'>Receive inquiries and collaborate with clients effortlessly.</span></li>
+          <li className="my-2"><span className="fw-medium"><TbBusinessplan  style={{color:"orangered"}} />  Business Growth:</span> <span className='text-muted'> Increase your customer base and grow your revenue.</span></li>
+          <li><span className="fw-medium"><CgWebsite style={{color:"orangered"}}/> Custom Websites:</span> <span className='text-muted'>Designed specifically to highlight your skills and services.</span></li>
         </ul>
       </div>
       </div>
@@ -84,10 +96,10 @@ const Partners = () => {
        <h2 className="pb-2 display-6"style={{color:"orangered"}}>Why Partner With Us?</h2>
       <div className="col">
         <ul className="list-unstyled">
-          <li><span className="fw-bold">User-Friendly Interface:</span> An easy-to-use platform tailored to your needs.</li>
-          <li className="my-2"><span className="fw-bold">Marketing Support:</span> Promote your services through targeted campaigns.</li>
-          <li><span className="fw-bold">Tailor-First Focus:</span> Dedicated features for tailor showcase and customer reviews.</li>
-          <li className="mt-2"><span className="fw-bold">Take Orders:</span> Get a professional platform to display your work and take orders.</li>
+          <li><span className="fw-medium"><LiaUserFriendsSolid style={{color:"orangered"}}/> User-Friendly Interface:</span> <span className='text-muted'> An easy-to-use platform tailored to your needs.</span></li>
+          <li className="my-2"><span className="fw-medium"><MdSupportAgent style={{color:"orangered"}}/> Marketing Support:</span> <span className='text-muted'>Promote your services through targeted campaigns.</span></li>
+          <li><span className="fw-medium"><IoPeopleOutline style={{color:"orangered"}}/> Tailor-First Focus:</span> <span className='text-muted'>Dedicated features for tailor showcase and customer reviews.</span></li>
+          <li className="mt-2"><span className="fw-medium"><IoNewspaperOutline style={{color:"orangered"}}/> Take Orders:</span> <span className='text-muted'>Get a professional platform to display your work and take orders.</span></li>
         </ul>
       </div>
        </div>
@@ -110,10 +122,10 @@ const Partners = () => {
       <h2 className="pb-2 display-6"style={{color:"orangered"}}>How It Works:</h2>
       <div className="col">
         <ul className="list-unstyled">
-          <li><span className="fw-bold">Tailors Profiles:</span> Tailors login and share their needs for an online presence to TailorsHub platform.</li>
-          <li className="my-2"><span className="fw-bold">Website Owners:</span> Explore tailor profiles and pitch your services.</li>
-          <li><span className="fw-bold">Collaborate:</span> Create custom websites that align with the tailor's vision and business goals.</li>
-          <li className="mt-2"><span className="fw-bold">Gain Visibility:</span> Reach customers in your locality and beyond, and take orders.</li>
+          <li><span className="fw-medium">< CgProfile style={{color:"orangered"}} /> Tailors Profiles:</span> <span className='text-muted'>Tailors login and share their needs for an online presence to TailorsHub platform.</span></li>
+          <li className="my-2"><span className="fw-medium"><CgWebsite style={{color:"orangered"}} /> Website Owners:</span> <span className='text-muted'>Explore tailor profiles and pitch your services.</span></li>
+          <li><span className="fw-medium"><RiShakeHandsLine style={{color:"orangered"}} /> Collaborate:</span> <span className='text-muted'>Create custom websites that align with the tailor's vision and business goals.</span></li>
+          <li className="mt-2"><span className="fw-medium"><MdOutlineVisibility style={{color:"orangered"}}/> Gain Visibility:</span> <span className='text-muted'>Reach customers in your locality and beyond, and take orders.</span></li>
         </ul>
       </div>
       </div>
